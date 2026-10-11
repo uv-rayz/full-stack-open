@@ -8,7 +8,7 @@ sequenceDiagram
     server -->>browser: Redirect to /exampleapp/notes
     deactivate server
 
-    brower->>server: POST https://studies.cs.helsinki.fi/exampleapp/notes
+    browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/notes
     activate server
     server-->>browser: HTML document
     deactivate server
